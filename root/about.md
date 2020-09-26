@@ -1,16 +1,7 @@
 ---
+layout: default
 title: Home
 ---
-<!doctype html>
-<html>
+# About page
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-</head>
-
-<body>
-    <h1>{{ "HELLO WORLD!" | downcase }}</h1>
-</body>
-
-</html>
+This page tells you a little bit about me.
