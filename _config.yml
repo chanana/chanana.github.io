@@ -1,3 +1,4 @@
-theme: jekyll-theme-architect
-title: Welcome to the Shaurya Chanana’s homepage!
+theme: jekyll-theme-slate
+title: Shaurya Chanana’s homepage!
 description: Personal website!
+markdown: kramdown
