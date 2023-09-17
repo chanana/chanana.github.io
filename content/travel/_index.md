@@ -7,49 +7,15 @@ title: "Travel Advice"
 
 ## Address
 
-Higher Eggbeer Farm, 
-Cheriton Bishop, 
-Exeter, 
-EX6 6JQ
+6259 E County Rd 91 N
+Avon, IN 
+46123
 
-## By train
+## Getting here
 
-Trains from London Paddington to Exeter St David’s are approx ~2hrs 15mins.
+Rent a car from the airport or take an uber or talk to other people and figure out rides!
 
-You would then need to travel by taxi.
+**Note: Parking is available on site**
 
-## By taxi
-
-Taxi from Exeter Station to Higher Eggbeer is approx. a 15-20min cab ride.
-
-Please arrange cabs home for your group on Saturday night after the wedding.
-
-<br>
-
-**Taxi Companies:**
-
-Exeter Cars - 01392 555555 ([website](https://www.exetercars.com/))
-
-Apple Taxis Exeter - 01392 666 666 ([website](https://www.appletaxisexeter.co.uk/))
-
-Andrew Mills Taxi - 01392 253588
-
-## By car
-
-**Note: Parking is available on site and cars can be left on site overnight**
-
-Higher Eggbeer is a short drive from Exeter City Centre - approx. 15-20min drive.
-
-From Exeter, take the A30 & exit towards Cheriton Bishop / Crockernwell / Drewsteignton / Tedburn / St Mary.
-
-When you arrive in the village of Cheriton Bishop at the ‘The Old Thatch Inn’ pub on the left, take the next left turn (at the yellow house). This will lead you down a short country lane directly to Higher Eggbeer. There are signs pointing to the entrance.
-
+We like to say everything in and around Indianapolis is ~20 mins away from each other. That holds true here. The venue is a 20-30 min drive from Indianapolis Downtown. If you chose to stay somewhere in Brownsburg, Whitestown or Avon, it will be a 10-15 min drive.
  
-
-
-
-
-
-
-
-
