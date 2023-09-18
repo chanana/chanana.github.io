@@ -3,9 +3,10 @@
 
 
     <section id="when" class="section light">
-        <!-- <div class="section__svg">
-            {{ partial "svgs/leaf.svg" . }}
-        </div> -->
+        <div style="text-align: center;">
+            <img src="/image/coneflower-600.png" alt="coneflower" />
+        </div>
+        
         <h1 class="section__heading">The Wedding</h1>
         <section class="section__split">
             <div>
@@ -25,10 +26,10 @@
             </div>
         </section>
         <!-- My CSS in this project is bad, man -->
-        <section style="display:flex;flex-direction:column;align-items:center;">
-            <!-- <h2 style="margin-top:2rem;" class="section__heading">Speeches</h2> -->
+        <!-- <section style="display:flex;flex-direction:column;align-items:center;"> -->
+        <!-- <h2 style="margin-top:2rem;" class="section__heading">Speeches</h2> -->
 
-            <!-- <h3 style="margin-top:2rem;" class="section__heading">Father of Bride</h3>
+        <!-- <h3 style="margin-top:2rem;" class="section__heading">Father of Bride</h3>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/XfCBomxy7K8"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -46,7 +47,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe> -->
 
-        </section>
+        <!-- </section> -->
     </section>
 
     <div class="image image2"></div>
@@ -86,13 +87,6 @@
         </div> -->
 
         {{ $t := .Site.GetPage "/section/dress" }}
-        <h1 class="section__heading">{{$t.Params.title}}</h1>
-        <section class="section__md-content">
-            {{ $t.Content }}
-        </section>
-    </section>
-    <section id="facilities-accessibility" class="section light">
-        {{ $t := .Site.GetPage "/section/facilities-accessibility" }}
         <h1 class="section__heading">{{$t.Params.title}}</h1>
         <section class="section__md-content">
             {{ $t.Content }}
