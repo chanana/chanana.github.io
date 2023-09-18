@@ -83,19 +83,10 @@ html {
   height: 100vh;
 }
 
-.header-svg {
-  width: auto;
-  height: auto;
-}
 
 @media only screen and (min-width: 800px) {
   .header {
     min-height: fit-content;
-  }
-
-  .header-svg {
-    width: 75%;
-    height: 75%;
   }
 }
 
@@ -301,13 +292,6 @@ html {
   width: 100%;
 }
 
-.section__svg {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 5%;
-}
-
 .section__split {
   display: flex;
   flex-direction: column;
@@ -375,7 +359,7 @@ html {
   font-size: 125%;
 }
 
-/* FOOTER */
+/* FOOTER
 
 .footer {
   padding: 0px 20px 20px 20px;
@@ -385,15 +369,10 @@ html {
   color: var(--cream);
   font-size: 75%;
 }
-
-.footer svg {
-  width: 30%;
-  height: 30%;
-  align-self: center;
-}
+*/
 
 .footer p {
-  align-self: right;
+  align-self: center;
 }
 
 .footer a:link,
@@ -405,20 +384,15 @@ html {
 
 @media only screen and (min-width: 800px) {
   .footer {
-    text-align: right;
+    text-align: center;
     color: var(--cream);
     font-size: inherit;
-  }
-
-  .footer svg {
-    width: 20%;
-    height: 20%;
   }
 
   .footer p {
     align-self: center;
   }
-}
+} 
 
 .section__md-content {
   text-align: left;
