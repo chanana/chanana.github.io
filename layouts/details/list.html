@@ -1,0 +1,15 @@
+{{/*  <section id="details" class="section light">
+    <h1 class="section__heading">Details</h1>
+    <p>{{ .Params.details.message }}</p>
+</section>  */}}
+
+{{ define "main" -}}
+{{ partial "shared/navigation.html" . }}
+
+<section class="section light standalone">
+    <h1 class="section__heading">{{.Page.Title}}</h1>
+    {{ .Page.Content }}
+</section>
+
+{{ partial "shared/footer.html" . }}
+{{- end }}
