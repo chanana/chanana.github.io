@@ -1,8 +1,8 @@
 <footer class="footer">
-    {{ partial "svgs/leaves.svg" . }}
     <p>
-        Made by Shaurya with heavy inspiration from 
-    <a href="https://github.com/SarahFrench" target="_blank" rel="nofollow noreferrer noopener">Sarah French's website</a>
+        Made by {{ .Site.Params.name }} in {{ now.Year}} with heavy inspiration from
+        <a href={{ .Site.Params.copiedFrom }} target="_blank" rel="nofollow noreferrer noopener">Sarah French's
+            website</a>
         :)
     </p>
 </footer>

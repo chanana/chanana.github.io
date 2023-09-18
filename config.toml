@@ -1,0 +1,6 @@
+baseURL = 'https://deepaandshaurya.us/'
+languageCode = 'en-us'
+title = 'Dinner Party'
+[params]
+name = 'Shaurya Chanana'
+copiedFrom = "https://github.com/SarahFrench"
