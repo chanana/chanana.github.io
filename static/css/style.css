@@ -38,9 +38,8 @@ html {
   --main-font: 'Noto Sans', sans-serif;
 
   --cream: #FAF2DA;
-  --light-green: #BAC18B;
-  --dark-green: #535821;
-  --dusty-pink: #FBBFC8;
+  --dark-green: #454372;
+  --dusty-pink: #D05561;
 }
 
 /* IMAGES - DESKTOP PARALLAX SCROLLING */
@@ -336,22 +335,9 @@ html {
   }
 }
 
-.section__svg svg {
-  width: 15%;
-  height: 15%;
-}
-
-
 .section.light {
   color: var(--dark-green);
   background-color: var(--cream);
-}
-
-.section.dark {
-  width: 100%;
-  min-height: 200px;
-  color: var(--cream);
-  background-color: var(--light-green);
 }
 
 @media only screen and (max-width: 800px) {
@@ -471,28 +457,4 @@ html {
 .standalone ul,
 .standalone ol {
   margin-left: 1rem;
-}
-
-/*Gift section*/
-
-blockquote {
-  width: 100%;
-  font-style: italic;
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-bottom: 1rem;
-
-  color: var(--light-green)
-}
-
-@media only screen and (min-width: 800px) {
-  blockquote {
-    width: 75%;
-  }
-}
-
-figcaption {
-  text-align: right;
-  color: var(--light-green)
 }
