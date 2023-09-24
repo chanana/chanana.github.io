@@ -16,104 +16,19 @@ body {
   min-width: 100vw;
 }
 
-/* Needed for scrolling to sections from nav links */
-html {
-  scroll-behavior: smooth;
-}
 
-.google-map {
-  width: 100%;
-  height: 50vh;
-}
-
-@media only screen and (min-width: 800px) {
-  .google-map {
-    width: 600;
-    height: 450;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 /* VARIABLES */
 :root {
   --main-font: 'Noto Sans', sans-serif;
-
   --cream: #FAF2DA;
   --dark-green: #454372;
   --dusty-pink: #D05561;
-}
-
-/* IMAGES - DESKTOP PARALLAX SCROLLING */
-
-.image {
-  height: 50vh;
-  background-size: cover;
-  background-position: bottom;
-  filter: saturate(0);
-}
-
-@media only screen and (min-width: 800px) {
-
-  .image {
-    min-height: 200px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 500px;
-  }
-}
-
-/* HEADING SECTION */
-.header {
-  min-height: 200px;
-  margin-top: 20px;
-  padding-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--dusty-pink);
-  color: var(--cream);
-  text-shadow: var(--dark-green) 2px 2px 0px;
-  letter-spacing: 2px;
-
-  height: 100vh;
-}
-
-
-@media only screen and (min-width: 800px) {
-  .header {
-    min-height: fit-content;
-  }
-}
-
-.header__text {
-  text-align: center;
-}
-
-.header__text--light {
-  font-weight: 400;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.header__text--heavy {
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-@media only screen and (min-width: 800px) {
-  .header__text--light {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .header__text--heavy {
-    font-size: 2.5rem;
-  }
 }
 
 /* NAVIGATION - TOP MENU */
@@ -191,7 +106,7 @@ html {
 .nav-mobile__menu {
   display: none;
   background-color: var(--dusty-pink);
-  width: 100vw;
+  width: calc(100vw - 1px);
   height: 100vh;
   position: fixed;
   top: 0;
@@ -262,30 +177,6 @@ html {
   transition: all 0.25s ease-in-out;
 }
 
-/* NAVIGATION - SCROLL TO TOP */
-
-.scroll-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.scroll-top__button {
-  display: inline-block;
-  width: 25%;
-  height: 25%;
-  ;
-  cursor: pointer;
-}
-
-@media only screen and (min-width: 800px) {
-  .scroll-top__button {
-    width: 10%;
-    height: 10%;
-    ;
-  }
-}
-
 /* TEXT SECTIONS */
 
 .section {
@@ -299,7 +190,7 @@ html {
 
 .section__split div {
   width: 100%;
-  padding: 50px 10px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -307,7 +198,7 @@ html {
   border-right: none;
   border-bottom: solid 2px var(--dusty-pink);
 }
-
+/* 
 @media only screen and (min-width: 800px) {
   .section__split {
     flex-direction: row;
@@ -317,7 +208,7 @@ html {
     border-right: solid 2px var(--dusty-pink);
     border-bottom: none;
   }
-}
+} */
 
 .section.light {
   color: var(--dark-green);
@@ -359,7 +250,7 @@ html {
   font-size: 125%;
 }
 
-/* FOOTER
+FOOTER
 
 .footer {
   padding: 0px 20px 20px 20px;
@@ -369,7 +260,7 @@ html {
   color: var(--cream);
   font-size: 75%;
 }
-*/
+
 
 .footer p {
   align-self: center;

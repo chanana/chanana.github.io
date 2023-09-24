@@ -1,33 +1,37 @@
 <main>
-    <section id="when" class="section light">
-        <div style="text-align: center;">
-            <a href="https://www.chicagobotanic.org/plantinfo/coneflowers"><img src="/image/coneflower-600.png"
-                    alt="coneflower" /></a>
-        </div>
-        <h1 class="section__heading">The Dinner Party</h1>
-        <section class="section__split">
-            <div>
-                <p class="section__subheading">When</p>
-                <p class="section__text--bold">
-                    {{ .Params.when }}
-                </p>
+
+    <body>
+        <section id="when" class="section light">
+            <div style="text-align: center;">
+                <a href="https://www.chicagobotanic.org/plantinfo/coneflowers"><img src="/image/coneflower-600.png"
+                        alt="coneflower" /></a>
             </div>
-            <div>
-                <p class="section__subheading">Where</p>
-                <p class="section__text--bold">
-                    {{ .Params.where.first }}
-                </p>
-                <p>
-                    {{ .Params.where.second }}
-                </p>
-            </div>
+            <h1 class="section__heading">The Dinner Party</h1>
+            <section class="section__split">
+                <div>
+                    <p class="section__subheading">When</p>
+                    <p class="section__text--bold">
+                        {{ .Params.when }}
+                    </p>
+                </div>
+                <div>
+                    <p class="section__subheading">Where</p>
+                    <p class="section__text--bold">
+                        {{ .Params.where.first }}
+                    </p>
+                    <p>
+                        {{ .Params.where.second }}
+                    </p>
+                </div>
+            </section>
         </section>
-    </section>
-    <section id="more" class="section light" style="text-align:center;">
-        <p style="margin-bottom:1em;">
-        <h1 class="section__heading"><a href="/details" >Details </a></h1>
-        <br>Questions? Contact us at: <br> <a href="mailto:shaurya.chanana@gmail.com">shaurya.chanana@gmail.com</a>
-        or <a href="mailto: ddacharya776@gmail.com">ddacharya776@gmail.com</a> </p>
-        </p>
-    </section>
+        <section id="more" class="section light" style="text-align:center;">
+            <p style="margin-bottom:1em;">
+            <h1 class="section__heading"><a href="/details">Details </a></h1>
+            <br>Questions? Contact us at: <br> <a href="mailto:shaurya.chanana@gmail.com">shaurya.chanana@gmail.com</a>
+            or <a href="mailto: ddacharya776@gmail.com">ddacharya776@gmail.com</a> </p>
+            </p>
+        </section>
+    </body>
+
 </main>
