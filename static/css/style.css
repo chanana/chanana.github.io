@@ -1,5 +1,8 @@
 /* NOTE: media queries are for setting Desktop-specific rules */
-
+@font-face {
+  font-family: AbhayaLibre-Regular;
+  src: url(../fonts/AbhayaLibre-Regular.ttf);
+}
 
 /* MISC */
 * {
@@ -11,26 +14,41 @@
 body {
   background-color: var(--dusty-pink);
   font-family: var(--main-font);
-
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
   min-width: 100vw;
+  min-height: 100vh;
+  justify-content: space-between;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+}
 
 img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
+  width: auto\9;
+  /* ie8 */
 }
 
 a {
   color: var(--dark-green)
 }
+
 /* VARIABLES */
 :root {
-  --main-font: 'Noto Sans', sans-serif;
-  --cream: #FdFbfA;
-  --dark-green: #386126;
+  --main-font: 'AbhayaLibre-Regular', sans-serif;
+  --dark-green: #7b6756;
+  --cream: #fff5ed;
+  /* --cream: #FdFbfA; */
+  /* --dark-green: #386126; */
   --dusty-pink: #fccad2;
   --black: #000;
 }
@@ -124,6 +142,9 @@ a {
   align-items: center;
 }
 
+/*
+do this when on desktop because min-width: 800px
+*/
 @media only screen and (min-width: 800px) {
   .nav-desktop {
     position: fixed;
@@ -202,8 +223,8 @@ a {
   border-right: none;
   border-bottom: solid 2px var(--dusty-pink);
 }
-/* 
-@media only screen and (min-width: 800px) {
+
+/* @media only screen and (min-width: 800px) {
   .section__split {
     flex-direction: row;
   }
@@ -237,13 +258,36 @@ a {
   }
 }
 
-.section__heading {
-  font-size: 1.5rem;
+.section__title {
+  font-size: 65px;
+  font-weight: 400;
   margin-bottom: 1.5rem;
+
   color: inherit;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  /* letter-spacing: 2px; */
+}
+
+@media screen and (max-width: 800px) {
+  .section__title {
+    font-size: 32px;
+  }
+
+  .section__heading {
+    font-size: 16px;
+  }
+}
+
+.section__heading {
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: inherit;
+  text-align: center;
+  font-weight: normal;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 5px; */
 }
 
 .section__subheading {
@@ -257,43 +301,40 @@ a {
   font-size: 125%;
 }
 
-FOOTER
+.section__paragraph {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: inherit;
+  font-style: italic;
+  text-align: center;
+}
+
+/* FOOTER */
 
 .footer {
   padding: 0px 20px 20px 20px;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  /* color: var(--black); */
-  font-size: 75%;
-}
-
-
-.footer p {
   align-self: center;
-}
-
-.footer a:link,
-.footer a:visited,
-.footer a:hover,
-.footer a:active {
-  color: var(--black);
+  font-size: 75%;
+  color: var(--cream);
+  align-self: center;
 }
 
 @media only screen and (min-width: 800px) {
   .footer {
     text-align: center;
-    color: var(--black);
+    color: var(--cream);
     font-size: inherit;
   }
 
   .footer p {
     align-self: center;
+    text-align: center;
   }
-} 
+}
 
 .section__md-content {
-  text-align: left;
+  text-align: center;
 }
 
 @media only screen and (min-width: 800px) {
