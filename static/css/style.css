@@ -240,7 +240,7 @@ do this when on desktop because min-width: 800px
   color: var(--dark-green);
   background-color: var(--cream);
   min-height: 50vh;
-  padding: 10% 20% 10%;
+  padding: 10%;
 }
 
 @media only screen and (min-width: 800px) {
