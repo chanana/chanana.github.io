@@ -1,6 +1,7 @@
 # custom
 .DS_Store
 coneflower/
+email.list.txt
 
 # Generated files by hugo
 /public/
