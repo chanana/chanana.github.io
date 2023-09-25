@@ -16,7 +16,6 @@ body {
   font-family: var(--main-font);
   display: flex;
   flex-direction: column;
-  /* position: absolute; */
   min-width: 100vw;
   min-height: 100vh;
   justify-content: space-between;
@@ -211,17 +210,19 @@ do this when on desktop because min-width: 800px
 .section__split {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .section__split div {
   width: 100%;
-  padding: 50px;
+  /* padding: 50px; */
   text-align: center;
 }
 
 .section__split div:nth-child(1) {
   border-right: none;
-  border-bottom: solid 2px var(--dusty-pink);
+  justify-content: space-between;
+  /* border-bottom: solid 2px var(--dusty-pink); */
 }
 
 /* @media only screen and (min-width: 800px) {
@@ -238,23 +239,14 @@ do this when on desktop because min-width: 800px
 .section.light {
   color: var(--dark-green);
   background-color: var(--cream);
+  min-height: 50vh;
+  padding: 10% 20% 10%;
 }
-
-@media only screen and (max-width: 800px) {
-  .section {
-    min-height: 200px;
-    padding: 50px 20px;
-  }
-}
-
-/* #contact {
-  color: #000;
-} */
 
 @media only screen and (min-width: 800px) {
   .section {
-    min-height: 300px;
-    padding: 5% 20%;
+    min-height: 50vh;
+    padding: 10% 50% 0% 50%;
   }
 }
 

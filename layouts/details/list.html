@@ -1,31 +1,37 @@
-{{/*  <section id="details" class="section light">
+{{/* <section id="details" class="section light">
     <h1 class="section__heading">Details</h1>
     <p>{{ .Params.details.message }}</p>
-</section>  */}}
+</section> */}}
 
 {{ define "main" -}}
 {{ partial "shared/navigation.html" . }}
 
-{{/*  <section class="section light standalone">
+{{/* <section class="section light standalone">
     <h1 class="section__heading">{{.Page.Title}}</h1>
-    {{ .Page.Content }}
-</section>  */}}
+{{ .Page.Content }}
+</section> */}}
 <main>
-<section class="section light standalone">
-    <h1 class="section__heading">Address</h1>
-    <p class="section__paragraph">6259 E County Rd 91 N <br>
-        Avon, IN <br>
-        46123 <br>
-    </p>
-</section> 
 
-<section class="section light standalone">
-    <h1 class="section__heading">RSVP</h1>
-    <p class="section__paragraph">We are excited to see you at our celebration! We are looking to get a <a href="https://forms.gle/oXSzwmuGWyvZGi516">soft RSVP</a> as soon as possible to help us make sure we have a tentative headcount. If your plans change, you can always update your RSVP later.<br>
-    </p>
-</section>
+    <section class="section light standalone">
+        <h1 class="section__heading">RSVP</h1>
+        <p class="section__paragraph">We are excited to see you at our celebration! We are looking to get a <a
+                href="https://forms.gle/oXSzwmuGWyvZGi516">soft RSVP</a> as soon as possible to help us make sure we
+            have a tentative headcount. If your plans change, you can always update your RSVP later.<br>
+        </p>
+    </section>
 
-{{/*  <section class="section light standalone">
+    <section class="section light standalone">
+        <h1 class="section__heading">Address</h1>
+        <p class="section__paragraph">6259 E County Rd 91 N <br>
+            Avon, IN <br>
+            46123 <br>
+        </p>
+    </section>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">More details to come!</h1>
+    </section>
+    {{/* <section class="section light standalone">
     <h1 class="section__heading">Accomodation</h1>
     <p class="section__paragraph">We recommend staying in one of the following areas:
         Brownsburg (10-15 min drive)
