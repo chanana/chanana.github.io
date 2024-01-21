@@ -1,0 +1,79 @@
+{{/* <section id="details" class="section light">
+    <h1 class="section__heading">Details</h1>
+    <p>{{ .Params.details.message }}</p>
+</section> */}}
+
+{{ define "main" -}}
+{{ partial "shared/navigation.html" . }}
+
+{{/* <section class="section light standalone">
+    <h1 class="section__heading">{{.Page.Title}}</h1>
+{{ .Page.Content }}
+</section> */}}
+<main>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">RSVP</h1>
+        <p class="section__paragraph">
+            We are excited to see you at our celebration! Please <a href="https://forms.gle/oXSzwmuGWyvZGi516">RSVP</a>
+            as soon as possible. If your plans change, please update your RSVP (or text us).
+            <br>
+            <br>
+            <b>If you have any specific allergies or dietary restrictions, please let us know in the RSVP
+                form.</b>
+        </p>
+    </section>
+
+
+    <section class="section light standalone">
+        <h1 class="section__heading">Accomodation</h1>
+        <p class="section__paragraph">
+            Here's a broad description of Indy's areas:
+            <br>
+            <br>
+            <br>
+            <b>Downtown Indy: </b> This is where the city center is and also where we live. The most happening part of
+            downtown is Mass Ave where you can find several restaurants and craft cocktail bars as well as a lot of
+            hotels and airbnbs. We have a room block at <a
+                href="https://bookings.travelclick.com/112191?groupID=4196774">Bottleworks Hotel</a> for June 23rd under
+            the
+            name "Acharya-Chanana".
+            <br>
+            <br>
+            <br>
+            <b>Broad Ripple </b>has a free-spirited vibe, with laid-back cafes, global eateries, lively brewpubs and
+            happening clubs. The popular Monon Trail runs through this area.
+            <br>
+            <br>
+            <b>Fountain Square </b> Fountain Square is a quirky neighborhood with several galleries, a vintage duckpin
+            bowling alley, laid-back eateries, offbeat nightlife including music cafes and burlesque clubs, craft
+            cocktail bars. This is also near where a lot of HGTV shows are filmed.
+            <br>
+            <br>
+            <b>Brownsburg, Whitestown, Avon: </b>These are the suburbs of Indianapolis close to where the reception
+            dinner is. If you're over 40, we recommend staying here.
+            <br>
+            <br>
+            <b>Carmel, Zionsville: </b> Rich suburbs of Indy that are far from the venue. They have some cute stuff.
+            <br>
+            <br>
+            Please text us if you have any specific questions about where to stay.
+    </section>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">Transportation</h1>
+        <p class="section__paragraph">
+            We like to say everything in and around Indianapolis is ~20 mins away from each other so please rent a car.
+        </p>
+    </section>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">Gifts?</h1>
+        <p class="section__paragraph">
+            The most important thing to us is that you are able to celebrate with us. However, if you must, we will
+            accept a visa gift card.
+        </p>
+    </section>
+</main>
+{{ partial "shared/footer.html" . }}
+{{- end }}

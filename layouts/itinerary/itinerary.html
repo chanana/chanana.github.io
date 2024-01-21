@@ -1,0 +1,60 @@
+{{/* <section id="details" class="section light">
+    <h1 class="section__heading">Details</h1>
+    <p>{{ .Params.details.message }}</p>
+</section> */}}
+
+{{ define "main" -}}
+{{ partial "shared/navigation.html" . }}
+
+{{/* <section class="section light standalone">
+    <h1 class="section__heading">{{.Page.Title}}</h1>
+{{ .Page.Content }}
+</section> */}}
+<main>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">DAY 1</h1>
+        <p class="section__paragraph">
+            <b>Welcome Picnic</b>
+            <br>
+            <br>
+            <b>When: </b>11a-2p, Saturday, June 22nd, 2024 <br><br>
+            <b>Where: </b><a href="https://maps.app.goo.gl/a1hJzaoMwN6YQDBd6">Lily Lake (LL) Shelter, Eagle Creek
+                Park</a> <br><br>
+            <b>How: </b>Casual
+            <br>
+            <br>
+            <b>Why:</b> We want to hang out with all y'all so, taking inspiration
+            from our friends, we are planning to have a welcome picnic. That way we can all have awkward sober
+            conversations with each other yay!
+            <br>
+            <br>
+            <b>What: </b>Join us for a picnic at the largest city park in the state. We will have food, drinks, and
+            games.
+        </p>
+    </section>
+
+    <section class="section light standalone">
+        <h1 class="section__heading">DAY 2</h1>
+        <p class="section__paragraph">
+            <b>Reception Party!</b>
+            <br>
+            <br>
+            <b>When: </b>6-11p, Sunday, June 23rd, 2024
+            <br>
+            <br>
+            <b>Where: </b><a href="https://maps.app.goo.gl/6bsXfhFMnmh1YfLAA">Avon Gardens</a>
+            <br>
+            <br>
+            <b>How: </b>Formal
+            <br>
+            <br>
+            <b>Why:</b> We want to celebrate our marriage with all of you! We will have food, drinks, and dancing.
+            <br>
+            <br>
+            <b>What:</b> Join us for a reception party at Avon Gardens. We will have food, drinks, and dancing.
+        </p>
+    </section>
+</main>
+{{ partial "shared/footer.html" . }}
+{{- end }}
